@@ -14,11 +14,12 @@ in
     if isLinux then "/home/your-username" else
     if isDarwin then "/Users/your-username" else unsupported;
 
-  home.stateVersion = "23.05"; # Don't change this
+  home.stateVersion = "23.05"; # Don't change this. This will not upgrade your home-manager.
   programs.home-manager.enable = true;
 
   home.packages = with pkgs; ([
     # Common packages
+    hello
   ] ++ lib.optionals isLinux [
     # GNU/Linux packages
   ]

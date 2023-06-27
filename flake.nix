@@ -1,5 +1,5 @@
 {
-  description = "Your dead simple Home Manager configuration"
+  description = "Your dead simple Home Manager configuration";
 
   inputs.nixpkgs = {
     url = "github:nixos/nixpkgs/nixos-23.05";         ## Most stable, less downloads
@@ -18,7 +18,7 @@
 
   outputs = { self, nixpkgs, home-manager }: {
     homeConfigurations = {
-      "your-username@your-linux" = home-manager.lib.homeManagerConfiguration ({
+      "username@your-linux" = home-manager.lib.homeManagerConfiguration ({
         modules = [ (import ./home.nix) ];
         pkgs = import nixpkgs {
           system = "x86_64-linux";
