@@ -1,8 +1,8 @@
 # Dead Simple Home Manager
 
-I found it frustrating to establish a clear and simple setup for a cross-platform nix flake home-manager configuration. Experienced nix users offer their own intricate configurations with custom functions (sometimes recursive!) and external flakes that add too much complexity for a beginner, while basic guides fail to account for essential cross-platform functionality
+I found it frustrating to establish a clear and simple setup for a cross-platform nix flake home-manager configuration. Experienced nix users offer their own intricate configurations with custom functions (sometimes recursive!) and external flakes that add too much complexity for a beginner, while basic guides fail to account for essential cross-platform functionality.
 
-So, here's Dead Simple Home Manager, a straightforward and easy-to-understand nix flake configuration that ensures seamless cross-platform use. I've tested it on Linux and macOS, but it could easily generalize to other systems.
+So, here's Dead Simple Home Manager, a straightforward and easy-to-understand nix flake configuration that works cross-platform. I've tested it on Linux and macOS, but it could easily generalize to other systems.
 
 Just follow these steps:
 
